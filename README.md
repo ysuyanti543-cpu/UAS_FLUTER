@@ -4,7 +4,7 @@ Aplikasi Flutter sederhana untuk menampilkan **informasi kelurahan (subdistrict)
 dan **data penduduk** berdasarkan wilayah yang dipilih.
 
 ## 📱 Fitur Aplikasi
-- Halaman Seller
+- Halaman Aspirasi
 - Menampilkan informasi kelurahan
 - Menampilkan daftar penduduk berdasarkan kelurahan
 - Menggunakan data dummy (Mock Service)
@@ -20,3 +20,4 @@ dan **data penduduk** berdasarkan wilayah yang dipilih.
 ## 📂 Struktur Folder
 "# UAS_FLUTTER"  
 "# UAS_FLUTER"  
+
