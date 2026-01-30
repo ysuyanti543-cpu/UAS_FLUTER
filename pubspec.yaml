@@ -1,0 +1,37 @@
+name: akses_kelurahan
+description: Aplikasi layanan dan informasi kelurahan untuk admin dan warga.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+  qr_flutter: ^4.0.0
+  mobile_scanner: ^7.0.0
+  pdf: ^3.8.1
+  printing: ^5.9.0
+  shared_preferences: ^2.1.0
+  url_launcher: ^6.1.14
+  firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
+  qr: ^3.0.2
+  image: ^4.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bandung.png

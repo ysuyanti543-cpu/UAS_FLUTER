@@ -1,0 +1,14 @@
+# Konfigurasi Dart Analyzer untuk proyek Flutter
+# Digunakan untuk mendeteksi error, warning, dan lints
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Aman untuk mahasiswa / UAS
+    avoid_print: false           # Boleh pakai print() untuk debugging
+    prefer_single_quotes: true   # Gunakan ' daripada "
+    always_use_package_imports: false
+    unnecessary_this: true
+    use_key_in_widget_constructors: true
+    sized_box_for_whitespace: true
